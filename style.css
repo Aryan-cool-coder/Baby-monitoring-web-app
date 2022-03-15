@@ -1,0 +1,36 @@
+body {
+    background-size: 777px;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-position-x: 50%;
+    width: 100%;
+    background-color: linear-gradient(to bottom right, red, yellow);
+}
+
+.heading {
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+}
+
+#start, #number_of_objects, #status {
+    font-size:18px;
+}
+
+.copyright_footer {
+    margin:0;
+    position:fixed; 
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    background-color:darksalmon;
+    color: maroon;
+    line-height:2;
+    font-size: 25px;
+}
+
+canvas {
+    border: 2px solid rgb(83, 196, 139);
+    border-radius: 10px;
+    margin-top: 100PX;
+}
